@@ -1,0 +1,9 @@
+build:
+  skip: yes
+
+run:
+  image: neo4j:5.7.0-enterprise
+  containerPort: 7474
+  containerPort: 7687
+
+  
