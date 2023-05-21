@@ -1,4 +1,4 @@
-FROM neo4j:5.7.0-community
+FROM neo4j
 
 WORKDIR /neo
 
