@@ -5,5 +5,5 @@ run:
   image: neo4j:5.7.0-enterprise
   containerPort: 7474
   containerPort: 7687
-
+  args: --env=NEO4J_ACCEPT_LICENSE_AGREEMENT=<yes|eval>
   
